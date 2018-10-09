@@ -19,14 +19,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        buttonA?.setBackgroundColor(UIColor.brown, for: UIControlState.normal)
-        buttonA?.setBackgroundColor(UIColor.cyan, for: UIControlState.highlighted)
-        buttonA?.setBackgroundColor(UIColor.yellow, for: UIControlState.selected)
-        buttonA?.setBackgroundColor(UIColor.green, for: UIControlState.disabled)
-        buttonB?.setBackgroundColor(UIColor.brown, for: UIControlState.normal)
-        buttonB?.setBackgroundColor(UIColor.cyan, for: UIControlState.highlighted)
-        buttonB?.setBackgroundColor(UIColor.yellow, for: UIControlState.selected)
-        buttonB?.setBackgroundColor(UIColor.green, for: UIControlState.disabled)
+        buttonA?.setBackgroundColor(UIColor.brown, for: UIControl.State.normal)
+        buttonA?.setBackgroundColor(UIColor.cyan, for: UIControl.State.highlighted)
+        buttonA?.setBackgroundColor(UIColor.yellow, for: UIControl.State.selected)
+        buttonA?.setBackgroundColor(UIColor.green, for: UIControl.State.disabled)
+        buttonB?.setBackgroundColor(UIColor.brown, for: UIControl.State.normal)
+        buttonB?.setBackgroundColor(UIColor.cyan, for: UIControl.State.highlighted)
+        buttonB?.setBackgroundColor(UIColor.yellow, for: UIControl.State.selected)
+        buttonB?.setBackgroundColor(UIColor.green, for: UIControl.State.disabled)
     }
 
     override func didReceiveMemoryWarning() {
