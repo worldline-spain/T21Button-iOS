@@ -12,7 +12,7 @@ import UIKit
 open class T21Button: UIButton {
     
     @objc
-    open func setBackgroundColor(_ color: UIColor?, for state: UIControlState) {
+    open func setBackgroundColor(_ color: UIColor?, for state: UIControl.State) {
         if let usingColor = color {
             let rect = CGRect(origin: .zero, size: CGSize(width: 1, height: 1))
             UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
