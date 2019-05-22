@@ -2,7 +2,7 @@
 > T21Button is a helper class to change the background color of UIButton.
 
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage)
-[![CocoaPods compatible](https://img.shields.io/badge/pod-v2.0.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
+[![CocoaPods compatible](https://img.shields.io/badge/pod-v1.5.0-blue.svg)](https://github.com/CocoaPods/CocoaPods)
 [![Swift compatible](https://img.shields.io/badge/Swift-4.2-orange.svg)]()
 [![Platform compatible](https://img.shields.io/badge/platform-iOS-lightgrey.svg)]()
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)]()
@@ -38,7 +38,6 @@ Then run `pod install` command. For details of the installation and usage of Coc
 
 ## Authors
 
-* **Eloi Guzman Ceron** - *Initial work* 
 * **Edwin Peña** - *Initial work*
 * **Salvador Martin** - *Initial work*
 * **Patricia De la Rica** - *Carthage integration*
