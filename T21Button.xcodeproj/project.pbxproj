@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B1CBC3229542290098B2DE /* T21Button.h in Headers */ = {isa = PBXBuildFile; fileRef = 36B1CBC1229542290098B2DE /* T21Button.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36B1CBC6229542290098B2DE /* T21Button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B1CBBF229542290098B2DE /* T21Button.framework */; };
+		36B1CBC7229542290098B2DE /* T21Button.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36B1CBBF229542290098B2DE /* T21Button.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		36B1CBCC229543F00098B2DE /* T21Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B371DDA103800018D73 /* T21Button.swift */; };
 		9F2B818F216CD17100767950 /* T21Button.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F2B818E216CD17100767950 /* T21Button.podspec */; };
 		B9C51B171DDA101800018D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B161DDA101800018D73 /* AppDelegate.swift */; };
 		B9C51B191DDA101900018D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B181DDA101900018D73 /* ViewController.swift */; };
@@ -18,6 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		36B1CBC4229542290098B2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9C51B0B1DDA101800018D73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B1CBBE229542290098B2DE;
+			remoteInfo = T21Button;
+		};
 		B9C51B281DDA101900018D73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9C51B0B1DDA101800018D73 /* Project object */;
@@ -27,9 +38,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		36B1CBCB229542290098B2DE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				36B1CBC7229542290098B2DE /* T21Button.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		36B1CBBF229542290098B2DE /* T21Button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21Button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B1CBC1229542290098B2DE /* T21Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21Button.h; sourceTree = "<group>"; };
+		36B1CBC2229542290098B2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2B818E216CD17100767950 /* T21Button.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21Button.podspec; sourceTree = "<group>"; };
-		B9C51B131DDA101800018D73 /* T21Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21Button.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C51B131DDA101800018D73 /* T21ButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21ButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C51B161DDA101800018D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9C51B181DDA101900018D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9C51B1B1DDA101900018D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,10 +71,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		36B1CBBC229542290098B2DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9C51B101DDA101800018D73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B1CBC6229542290098B2DE /* T21Button.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36B1CBC0229542290098B2DE /* T21Button */ = {
+			isa = PBXGroup;
+			children = (
+				36B1CBC1229542290098B2DE /* T21Button.h */,
+				36B1CBC2229542290098B2DE /* Info.plist */,
+			);
+			path = T21Button;
+			sourceTree = "<group>";
+		};
 		B9C51B0A1DDA101800018D73 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +112,7 @@
 				B9C51B361DDA102A00018D73 /* src */,
 				B9C51B151DDA101800018D73 /* T21Button */,
 				B9C51B2A1DDA101900018D73 /* T21ButtonUITests */,
+				36B1CBC0229542290098B2DE /* T21Button */,
 				B9C51B141DDA101800018D73 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,8 +120,9 @@
 		B9C51B141DDA101800018D73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9C51B131DDA101800018D73 /* T21Button.app */,
+				B9C51B131DDA101800018D73 /* T21ButtonExample.app */,
 				B9C51B271DDA101900018D73 /* T21ButtonUITests.xctest */,
+				36B1CBBF229542290098B2DE /* T21Button.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,14 +159,26 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		36B1CBBA229542290098B2DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B1CBC3229542290098B2DE /* T21Button.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		B9C51B121DDA101800018D73 /* T21Button */ = {
+		36B1CBBE229542290098B2DE /* T21Button */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9C51B301DDA101900018D73 /* Build configuration list for PBXNativeTarget "T21Button" */;
+			buildConfigurationList = 36B1CBC8229542290098B2DE /* Build configuration list for PBXNativeTarget "T21Button" */;
 			buildPhases = (
-				B9C51B0F1DDA101800018D73 /* Sources */,
-				B9C51B101DDA101800018D73 /* Frameworks */,
-				B9C51B111DDA101800018D73 /* Resources */,
+				36B1CBBA229542290098B2DE /* Headers */,
+				36B1CBBB229542290098B2DE /* Sources */,
+				36B1CBBC229542290098B2DE /* Frameworks */,
+				36B1CBBD229542290098B2DE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -127,7 +186,26 @@
 			);
 			name = T21Button;
 			productName = T21Button;
-			productReference = B9C51B131DDA101800018D73 /* T21Button.app */;
+			productReference = 36B1CBBF229542290098B2DE /* T21Button.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9C51B121DDA101800018D73 /* T21ButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C51B301DDA101900018D73 /* Build configuration list for PBXNativeTarget "T21ButtonExample" */;
+			buildPhases = (
+				B9C51B0F1DDA101800018D73 /* Sources */,
+				B9C51B101DDA101800018D73 /* Frameworks */,
+				B9C51B111DDA101800018D73 /* Resources */,
+				36B1CBCB229542290098B2DE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B1CBC5229542290098B2DE /* PBXTargetDependency */,
+			);
+			name = T21ButtonExample;
+			productName = T21Button;
+			productReference = B9C51B131DDA101800018D73 /* T21ButtonExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B9C51B261DDA101900018D73 /* T21ButtonUITests */ = {
@@ -158,6 +236,11 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Worldline;
 				TargetAttributes = {
+					36B1CBBE229542290098B2DE = {
+						CreatedOnToolsVersion = 10.1;
+						DevelopmentTeam = C2UZU6ZLJE;
+						ProvisioningStyle = Automatic;
+					};
 					B9C51B121DDA101800018D73 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C2UZU6ZLJE;
@@ -184,13 +267,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9C51B121DDA101800018D73 /* T21Button */,
+				B9C51B121DDA101800018D73 /* T21ButtonExample */,
 				B9C51B261DDA101900018D73 /* T21ButtonUITests */,
+				36B1CBBE229542290098B2DE /* T21Button */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36B1CBBD229542290098B2DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9C51B111DDA101800018D73 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,6 +303,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		36B1CBBB229542290098B2DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B1CBCC229543F00098B2DE /* T21Button.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B9C51B0F1DDA101800018D73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,9 +332,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		36B1CBC5229542290098B2DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B1CBBE229542290098B2DE /* T21Button */;
+			targetProxy = 36B1CBC4229542290098B2DE /* PBXContainerItemProxy */;
+		};
 		B9C51B291DDA101900018D73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9C51B121DDA101800018D73 /* T21Button */;
+			target = B9C51B121DDA101800018D73 /* T21ButtonExample */;
 			targetProxy = B9C51B281DDA101900018D73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -260,6 +364,69 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		36B1CBC9229542290098B2DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21Button/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Button;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36B1CBCA229542290098B2DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = T21Button/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21Button;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B9C51B2E1DDA101900018D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -374,7 +541,9 @@
 		B9C51B311DDA101900018D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Button/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -388,7 +557,9 @@
 		B9C51B321DDA101900018D73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = C2UZU6ZLJE;
 				INFOPLIST_FILE = T21Button/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -430,6 +601,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36B1CBC8229542290098B2DE /* Build configuration list for PBXNativeTarget "T21Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B1CBC9229542290098B2DE /* Debug */,
+				36B1CBCA229542290098B2DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9C51B0E1DDA101800018D73 /* Build configuration list for PBXProject "T21Button" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -439,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9C51B301DDA101900018D73 /* Build configuration list for PBXNativeTarget "T21Button" */ = {
+		B9C51B301DDA101900018D73 /* Build configuration list for PBXNativeTarget "T21ButtonExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C51B311DDA101900018D73 /* Debug */,
