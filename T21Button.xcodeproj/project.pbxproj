@@ -11,6 +11,7 @@
 		36B1CBC6229542290098B2DE /* T21Button.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B1CBBF229542290098B2DE /* T21Button.framework */; };
 		36B1CBC7229542290098B2DE /* T21Button.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 36B1CBBF229542290098B2DE /* T21Button.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		36B1CBCC229543F00098B2DE /* T21Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B371DDA103800018D73 /* T21Button.swift */; };
+		3FF3079B22B10BAB00524822 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3079A22B10BAB00524822 /* Package.swift */; };
 		9F2B818F216CD17100767950 /* T21Button.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9F2B818E216CD17100767950 /* T21Button.podspec */; };
 		B9C51B171DDA101800018D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B161DDA101800018D73 /* AppDelegate.swift */; };
 		B9C51B191DDA101900018D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C51B181DDA101900018D73 /* ViewController.swift */; };
@@ -56,6 +57,7 @@
 		36B1CBBF229542290098B2DE /* T21Button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = T21Button.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B1CBC1229542290098B2DE /* T21Button.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = T21Button.h; sourceTree = "<group>"; };
 		36B1CBC2229542290098B2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF3079A22B10BAB00524822 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9F2B818E216CD17100767950 /* T21Button.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21Button.podspec; sourceTree = "<group>"; };
 		B9C51B131DDA101800018D73 /* T21ButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21ButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C51B161DDA101800018D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		B9C51B0A1DDA101800018D73 = {
 			isa = PBXGroup;
 			children = (
+				3FF3079A22B10BAB00524822 /* Package.swift */,
 				9F2B818E216CD17100767950 /* T21Button.podspec */,
 				B9C51B361DDA102A00018D73 /* src */,
 				B9C51B151DDA101800018D73 /* T21Button */,
@@ -318,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FF3079B22B10BAB00524822 /* Package.swift in Sources */,
 				B9C51B191DDA101900018D73 /* ViewController.swift in Sources */,
 				B9C51B381DDA103800018D73 /* T21Button.swift in Sources */,
 				B9C51B171DDA101800018D73 /* AppDelegate.swift in Sources */,
